@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1000 460" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="1000" height="460" fill="#f7f9fc"/>
+  <text x="500" y="40" text-anchor="middle" font-size="24" font-weight="700" fill="#0b1f3a">Alur Pendaftaran Merchant Midtrans</text>
+
+  <!-- Step boxes -->
+  <g font-size="15" fill="#0b1f3a">
+    <!-- Step 1 -->
+    <rect x="30" y="90" width="200" height="110" rx="14" fill="#ffffff" stroke="#0d6efd" stroke-width="2"/>
+    <text x="130" y="120" text-anchor="middle" font-weight="700" fill="#0d6efd">1. Buka Halaman Daftar</text>
+    <text x="130" y="145" text-anchor="middle">midtrans.com/id/passport</text>
+    <text x="130" y="168" text-anchor="middle">Klik "Daftar Sekarang"</text>
+
+    <!-- Arrow -->
+    <path d="M235 145 L275 145" stroke="#0d6efd" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- Step 2 -->
+    <rect x="280" y="90" width="200" height="110" rx="14" fill="#ffffff" stroke="#0d6efd" stroke-width="2"/>
+    <text x="380" y="115" text-anchor="middle" font-weight="700" fill="#0d6efd">2. Isi Formulir</text>
+    <text x="380" y="140" text-anchor="middle">Nama Bisnis, Nama Lengkap,</text>
+    <text x="380" y="160" text-anchor="middle">Email &amp; No. Telepon Bisnis,</text>
+    <text x="380" y="180" text-anchor="middle">Password</text>
+
+    <path d="M485 145 L525 145" stroke="#0d6efd" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- Step 3 -->
+    <rect x="530" y="90" width="200" height="110" rx="14" fill="#ffffff" stroke="#0d6efd" stroke-width="2"/>
+    <text x="630" y="120" text-anchor="middle" font-weight="700" fill="#0d6efd">3. Verifikasi Email</text>
+    <text x="630" y="145" text-anchor="middle">Buka inbox &amp; klik tombol</text>
+    <text x="630" y="165" text-anchor="middle">"Verify and Complete</text>
+    <text x="630" y="183" text-anchor="middle">Registration"</text>
+
+    <path d="M735 145 L775 145" stroke="#0d6efd" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- Step 4 -->
+    <rect x="780" y="90" width="190" height="110" rx="14" fill="#ffffff" stroke="#0d6efd" stroke-width="2"/>
+    <text x="875" y="120" text-anchor="middle" font-weight="700" fill="#0d6efd">4. Login Dashboard</text>
+    <text x="875" y="145" text-anchor="middle">Masuk ke MAP</text>
+    <text x="875" y="165" text-anchor="middle">(Merchant Admin</text>
+    <text x="875" y="183" text-anchor="middle">Portal / dashboard.midtrans.com)</text>
+
+    <!-- down arrow to step5 -->
+    <path d="M875 205 L875 235 L730 235" stroke="#198754" stroke-width="3" fill="none" marker-end="url(#arrow2)"/>
+
+    <!-- Step 5 -->
+    <rect x="530" y="250" width="200" height="110" rx="14" fill="#ffffff" stroke="#198754" stroke-width="2"/>
+    <text x="630" y="280" text-anchor="middle" font-weight="700" fill="#198754">5. Lengkapi Data Bisnis</text>
+    <text x="630" y="305" text-anchor="middle">Klik banner "Selesaikan</text>
+    <text x="630" y="325" text-anchor="middle">Pendaftaran" &amp; isi detail</text>
+    <text x="630" y="343" text-anchor="middle">bisnis + rekening bank</text>
+
+    <path d="M525 305 L485 305" stroke="#198754" stroke-width="3" marker-end="url(#arrow2)"/>
+
+    <!-- Step 6 -->
+    <rect x="280" y="250" width="200" height="110" rx="14" fill="#ffffff" stroke="#198754" stroke-width="2"/>
+    <text x="380" y="280" text-anchor="middle" font-weight="700" fill="#198754">6. Unggah Dokumen</text>
+    <text x="380" y="305" text-anchor="middle">KTP/NPWP (individu) atau</text>
+    <text x="380" y="325" text-anchor="middle">dokumen legalitas usaha,</text>
+    <text x="380" y="343" text-anchor="middle">setujui S&amp;K</text>
+
+    <path d="M275 305 L235 305" stroke="#198754" stroke-width="3" marker-end="url(#arrow2)"/>
+
+    <!-- Step 7 -->
+    <rect x="30" y="250" width="200" height="110" rx="14" fill="#ffffff" stroke="#fd7e14" stroke-width="2"/>
+    <text x="130" y="280" text-anchor="middle" font-weight="700" fill="#fd7e14">7. Review Tim Midtrans</text>
+    <text x="130" y="305" text-anchor="middle">Proses verifikasi data</text>
+    <text x="130" y="325" text-anchor="middle">beberapa hari kerja</text>
+
+    <!-- down to 8 -->
+    <path d="M130 365 L130 400" stroke="#fd7e14" stroke-width="3" marker-end="url(#arrow3)"/>
+  </g>
+
+  <!-- Step 8 -->
+  <rect x="30" y="405" width="900" height="45" rx="14" fill="#e7f6ec" stroke="#198754" stroke-width="2"/>
+  <text x="480" y="433" text-anchor="middle" font-size="16" font-weight="700" fill="#198754">8. Akun Aktif (Mode Production) — Siap Menerima Pembayaran Real 🎉</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#0d6efd"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#198754"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#fd7e14"/>
+    </marker>
+  </defs>
+</svg>
